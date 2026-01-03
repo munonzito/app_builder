@@ -1,0 +1,44 @@
+{
+  "name": "app-builder-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:emulator": "USE_FIREBASE_EMULATOR=true nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ai": "vitest run test/ai.test.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.0.0",
+    "@ai-sdk/azure": "^3.0.2",
+    "@ai-sdk/openai": "^1.0.0",
+    "@openrouter/ai-sdk-provider": "^1.5.4",
+    "ai": "^6.0.3",
+    "archiver": "^7.0.1",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "e2b": "^2.9.0",
+    "esbuild": "^0.27.2",
+    "firebase": "^11.10.0",
+    "firebase-admin": "^13.0.0",
+    "nuxt": "^3.14.0",
+    "process": "^0.11.10",
+    "snack-sdk": "^6.6.0",
+    "stream-browserify": "^3.0.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.21.0",
+    "@types/archiver": "^6.0.3",
+    "happy-dom": "^20.0.11",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.0"
+  }
+}

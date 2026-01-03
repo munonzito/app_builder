@@ -1,0 +1,17 @@
+{
+  "name": "droid-app-builder-template",
+  "version": "1.0.0",
+  "description": "E2B template with Factory AI Droid for app-builder",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsx build.ts"
+  },
+  "dependencies": {
+    "e2b": "^2.9.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "@types/node": "^20.10.0"
+  }
+}

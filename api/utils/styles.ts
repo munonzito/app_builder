@@ -1,0 +1,30 @@
+export const AppColors = {
+  primary: '#D97757',
+  accent: '#D97757',
+  background: '#1A1A1A',
+  surface: '#242424',
+  textPrimary: '#FAF9F5',
+  textSecondary: '#5E5D59',
+  link: '#D97757',
+  inputBorder: '#CCCCCC',
+  buttonPrimaryBg: '#141413',
+  buttonPrimaryText: '#FAF9F5',
+  buttonSecondaryBg: '#FAF9F5',
+  buttonSecondaryText: '#5E5D59',
+  userMessage: '#FAF9F5',
+  systemMessage: '#D97757',
+  success: '#4CAF50',
+  error: '#E57373',
+}
+
+export const AppSpacing = {
+  baseUnit: 4,
+  xs: 4,
+  sm: 8,
+  md: 16,
+  lg: 24,
+  xl: 32,
+  borderRadius: 4,
+  buttonPrimaryRadius: 8.5,
+  buttonSecondaryRadius: 7.5,
+}
